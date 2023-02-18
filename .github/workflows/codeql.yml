@@ -58,7 +58,7 @@ jobs:
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild
-      run: mvn  
+      run: mvn install
     #     ./location_of_script_within_repo/buildscript.sh
 
     - name: Perform CodeQL Analysis
